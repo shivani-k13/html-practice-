@@ -5,15 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    td,th,table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    table{
+        border-top: 7px solid gray;
+        border-left: solid 7px gray;
+        border-bottom: 7px solid black;
+        border-right: 7px solid black;
+        width: 900px;
+        height: 400px;
+        border-collapse: collapse;
+    }
+</style>
 <body>
+     
     <table>
         <tr>
+            <th></th>
             <th>Monday</th>
             <th>Tuesday</th>
             <th>Wednesday</th>
             <th>Thursday</th>
             <th>Friday</th>
         </tr>
+
+        <tr>
+            <th >1:00</th>
+            <td rowspan="2" style="background-color: rgb(250, 217, 176);">office</td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(250, 217, 176);" >office</td>
+            <td rowspan="8" style="background-color: rgb(250, 217, 176);">Office Hours by Appt</td>
+            <td rowspan="2" style="background-color: rgb(250, 217, 176);">Office</td>
+        </tr>
+
+        <tr>
+            <th>1:30</th>
+            <td rowspan="2" style="background-color: darkgrey;">Dept Meeting</td>
+            
+        </tr>
+
+        <tr>
+            <th>2:00</th>
+            <td rowspan="3" style="background-color: chartreuse;">MAT 108</td>
+            <td rowspan="3" style="background-color: chartreuse;">MAT 108</td>
+            <td rowspan="3" style="background-color: chartreuse;">MAT 108</td>
+        </tr>
+
+        <tr>
+            <th>2:30</th>
+            <td></td>
+    
+           
+        </tr>
+
+        <tr>
+            <th>3:00</th>
+            <td rowspan="3"  style="background-color: darkgrey;">EC Meeting</td>
+            
+        </tr>
+
+        <tr>
+            <th>3:30</th>
+            <td rowspan="3" style="background-color: rgb(248, 152, 248);">CSC 205</td>
+            <td rowspan="3" style="background-color: rgb(248, 152, 248);">CSC 205</td>
+            <td rowspan="3" style="background-color: rgb(248, 152, 248);">CSC 205</td>
+         </tr>
+         
+         <tr>
+            <th>4:00</th>
+
+         </tr>
+
+         <tr>
+            <th>4:30</th>
+            <td>
+
+            </td>
+         </tr>
+
+        
     </table>
 </body>
 </html>
