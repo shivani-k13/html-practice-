@@ -1,0 +1,36 @@
+img{
+    border-top-left-radius: 10px; border-top-right-radius: 10px;
+}
+body{
+    background-color: aqua;
+     background-image: linear-gradient(to right, rgb(155, 232, 245) , rgb(31, 89, 144));
+}
+
+.card{
+    width: 250px; background-color: white;
+     box-shadow:  4px 4px 3px rgb(109, 104, 104);
+      margin-left: 100px; margin-top: 20px; border-radius: 10px;
+}
+.car{
+    "width: 250px; background-color: white; 
+    box-shadow:  4px 4px 5px rgb(109, 104, 104);
+    margin-top: 20px; border-radius: 10px;margin-left: 40px;
+}
+.button1{
+    background-image: linear-gradient(rgb(192, 222, 243), rgba(40, 116, 188, 0.943));
+     color: white; border-radius: 30px; border: none ; padding: 7px;
+}
+.button2{
+    background-image: linear-gradient(rgb(242, 254, 5), rgb(255, 221, 0));
+     color: white; border: none; padding: 8px; border-radius: 15px;
+}
+.button3{
+    background-image: linear-gradient(to right, rgb(200, 32, 32), rgb(242, 163, 163));
+     color: white; border: none; padding: 7px; border-radius: 30px;
+}
+p,span{
+    color: rgb(158, 153, 153);
+}
+.name{
+    margin-left: 7px; font-size: smaller;
+}
