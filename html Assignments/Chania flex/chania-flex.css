@@ -1,0 +1,35 @@
+.city{
+    background-color: deepskyblue;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.flexl{
+    display: flex;
+    flex-direction: column;
+}
+.flexr{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.flexbody{
+    display: flex;
+}
+
+.header{
+    background-color: darkgray ;
+    color: white;
+    padding: 30px;
+}
+
+.Footer{
+    background-color: darkgray ;
+    color: white;
+    padding: 30px;
+    clear: both;
+
+}
