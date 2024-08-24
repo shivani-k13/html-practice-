@@ -1,0 +1,51 @@
+.flex{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    flex-direction:row;
+    border: solid 5px #826a98;
+    
+    
+
+}
+
+#flex-1{
+    background-color:#DDA0DD;
+    padding: 20px;s
+}
+#flex-2{
+    background-color:#BF94E4;
+    padding: 20px;
+}
+#flex-3{
+    background-color:#734F96;
+    padding: 20px;
+}
+#flex-4{
+    background-color:#FBAED2;
+    padding: 20px;
+    
+}
+#flex-5{
+    background-color:#EE82EE;
+    padding: 20px;
+}
+#flex-6{
+    background-color:#ADE4CA;
+    padding: 20px;
+}
+#flex-7{
+    background-color:#A6D5AE;
+    padding: 20px;
+}
+#flex-8{
+    background-color:#8FBC8E;
+    padding: 20px;
+}
+#flex-9{
+    background-color:#64A466;
+    padding: 20px;
+}
+#flex-10{
+    background-color:#2E8B56;
+    padding: 20px;
+}

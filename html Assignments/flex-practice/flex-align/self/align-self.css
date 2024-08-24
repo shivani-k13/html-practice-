@@ -1,0 +1,54 @@
+.flex{
+    display:flex;
+    border: solid 5px #826a98;
+  height: 400px;
+    align-items: flex-end;
+}
+
+#flex-1{
+    background-color:#DDA0DD;
+    align-self: flex-start;
+}
+#flex-2{
+    background-color:#BF94E4;
+    
+}
+#flex-3{
+    background-color:#734F96;
+    align-self: center;
+}
+#flex-4{
+    background-color:#FBAED2;
+    align-self: stretch;
+    
+}
+#flex-5{
+    background-color:#EE82EE;
+    align-self: baseline;
+    font-size: 40px;
+}
+#flex-6{
+    background-color:#ADE4CA;
+  
+   
+}
+#flex-7{
+    background-color:#A6D5AE;
+
+ 
+}
+#flex-8{
+    background-color:#8FBC8E;
+  
+   
+}
+#flex-9{
+    background-color:#64A466;
+   
+  
+}
+#flex-10{
+    background-color:#2E8B56;
+
+    flex-shrink: 7;
+}
