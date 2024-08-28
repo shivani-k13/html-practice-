@@ -1,0 +1,51 @@
+header{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    position: fixed;
+}
+#proinsure{
+    color: #2d2640;
+    font-size: xx-large;
+}
+.header{
+    color: #6e6b74;
+    margin-left: 530px;
+
+}
+.header.hover{
+    color: #2d2640;
+}
+.background{
+    background-color: #2d2640;
+    height: 400px;
+    color:white;
+   
+    }
+button{
+    color: white;
+    background-color: #2d2640;
+}
+img{
+   width: 350px ;
+   height: fit-content;
+   
+}
+.font{
+    font-size: 400%;
+}
+.text{
+    font-size: medium;
+    float: left;
+    padding: 20px;
+}
+.f-left{
+    float: left;
+    padding: 30px;
+}
+img{float: right;
+padding: 20px;}
+.button{
+    padding: 5px;
+    border: solid 2spx white;
+}
