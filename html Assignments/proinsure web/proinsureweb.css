@@ -3,6 +3,7 @@ header{
     display: flex;
     padding: 20px;
     position: fixed;
+    margin-top: 0%;
 }
 #proinsure{
     color: #2d2640;
@@ -10,12 +11,10 @@ header{
 }
 .header{
     color: #6e6b74;
-    margin-left: 530px;
+    margin-left: 500px;
 
 }
-.header.hover{
-    color: #2d2640;
-}
+
 .background{
     background-color: #2d2640;
     height: 400px;
@@ -23,8 +22,9 @@ header{
    
     }
 button{
-    color: white;
-    background-color: #2d2640;
+    color:#6e6b74;
+    border-color: #6e6b74;
+    padding: 10px;
 }
 img{
    width: 350px ;
@@ -38,6 +38,7 @@ img{
     font-size: medium;
     float: left;
     padding: 20px;
+    color:#bcb8c4;
 }
 .f-left{
     float: left;
@@ -46,6 +47,101 @@ img{
 img{float: right;
 padding: 20px;}
 .button{
-    padding: 5px;
-    border: solid 2spx white;
+    padding: 15px;
+    border-color: #ffffff;
+    color: white;
+    background-color: #2d2640;
+}
+.flex{
+    display: flex;
+}
+.space{
+    margin-left: 150px;
+}
+h1{
+    font-size: 300%;
+    color: #2d2640;
+}
+.para{
+    font-size:100%;
+    color: #6e6b74;
+}
+.know{
+     background-color: white;
+     padding:10px;
+     color: #6e6b74;
+}
+.image{
+    width: 400px;
+}
+.circle{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+span{
+    color: #6e6b74
+}
+.flex2{ 
+    display: flex;
+    justify-content: space-between ;
+    margin: 30px;
+}
+h2{
+    font-size: 200%;
+}
+.flex3{
+    display: flex;
+    padding: 50px;
+    background-color: #2d2640;
+    color: white;
+    justify-content: space-between;
+
+}
+.button2{
+    color: white;
+    border-color: white;
+    background-color: #2d2640;
+    height: 40px;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.head{
+    color: white;
+    font-size: 300%;
+}
+footer{
+    color: #bcb8c4;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: #6e6b74;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.footer{
+    color: #bcb8c4;
+    padding: 20px;
+    background-color: #2d2640;
+    text-align: center;
+}
+a:hover{
+    color: #2d2640;
+}
+button:hover{
+    background-color: #2d2640;
+    color: white;
+    border-color: #ffffff;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: #2d2640;
+}
+.button2:hover{
+    background-color: #ffffff;
+    color: #2d2640;
 }
