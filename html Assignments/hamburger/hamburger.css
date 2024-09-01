@@ -1,0 +1,109 @@
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.food{
+    color:red;
+}
+
+img{
+    width: 600px;
+}
+.heading1{
+    font-size:300%;
+    color: red;
+}
+.link{
+    font-size: 150%;
+    margin: 30px;
+}
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+a{
+    color: black;
+    margin-left: 15px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:5%;
+    padding: 15px;
+}
+#background{
+    
+    background-image: url(frame4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+
+    
+}
+.img2{
+    width: 300px;
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.button2{
+    margin-left: 400px;
+}
+.burgers{
+    width: 200px;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+
+.card{
+    box-shadow:  4px 4px 3px  2px rgb(108, 104, 104);
+    border-radius: 10%;
+    width: 230px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    color: rgb(60, 58, 58);
+}
+.logo{
+    width: 250px;
+}
+.followers{
+    font-family: "Sevillana", cursive;
+
+  font-style: normal;
+  font-size: 400%;
+}
+.flex4{
+
+    display: flex;
+    justify-content: space-around;
+    box-shadow:  4px 4px 3px  2px rgb(108, 104, 104);
+    border-radius: 5%;
+    text-align:center;
+    height: 150px;
+    padding-top:70px;
+   
+}
+.black{
+    background-color: black;
+    text-align: center;
+    color: rgb(112, 110, 110);
+    padding: 20px;
+}
+.red{
+    color: red;
+}
