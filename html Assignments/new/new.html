@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      .one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        padding: 30px;
+      }
+      .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(9, 65, 110);
+        padding: 30px;
+      }
+      .three {
+        display: flex;
+        background-color: #333;
+      }
+      .three a {
+        padding: 15px;
+        text-decoration: none;
+        color: antiquewhite;
+      }
+      .main {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .main-one {
+        background-color: #33333360;
+      }
+      .a {
+        margin-left: 30px;
+        margin-right: 100px;
+      }
+      .main-two {
+        margin-left: 50px;
+      }
+      .a > img {
+        width: 550px;
+      }
+      img {
+        width: 500px;
+      }
+
+      .footer {
+        background-color: gray;
+        display: flex;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+      @media screen and (max-width: 700px) {
+        .main {
+          display: block;
+          width: 100%;
+        }
+        .main-one,
+        .main-two {
+          margin: 20px;
+        }
+        .main-one img {
+          width: 400px;
+        }
+        .main-two img {
+          width: 400px;
+        }
+      }
+      @media screen and (max-width: 700px) {
+        .three {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .main-one img {
+          width: 200px;
+        }
+        .main-two img {
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">
+      Resize the browser window to see the responsive effect.
+    </div>
+
+    <div class="two">
+      <div>
+        <h2>My Website</h2>
+        <p>With a flexible layout</p>
+      </div>
+    </div>
+
+    <div class="three">
+      <a href="">link</a>
+      <a href="">link</a>
+      <a href="">link</a>
+      <a href="">link</a>
+    </div>
+    <div class="main">
+      <div class="main-one">
+        <div class="a">
+          <div>
+            <h1>About ME</h1>
+            <h4>photo of me:</h4>
+            <img src="./img/pexels-pixabay-327466.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
+              nesciunt assumenda quo in at error? Consequatur dicta atque
+              voluptatibus culpa fuga iste illum, laboriosam ea eum cumque,
+              expedita perferendis earum?
+            </p>
+          </div>
+
+          <div>
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div>
+              <img src="./img/pexels-pixabay-327466.jpg" alt="" />
+
+              <img src="./img/pexels-pixabay-327466.jpg" alt="" />
+              <img src="./img/pexels-pixabay-327466.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-two">
+        <div class="a">
+          <h1>TITLE HEADING</h1>
+          <h4>Title description , Dec 7, 2017</h4>
+          <img src="./img/pexels-pixabay-327466.jpg" alt="" />
+          <p>some text..</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            placeat fugit architecto doloremque voluptatibus esse quam
+            exercitationem, enim dolorem cum distinctio explicabo amet ab sunt
+            saepe maiores, nostrum molestias non!
+          </p>
+        </div>
+        <div class="a">
+          <h1>TITLE HEADING</h1>
+          <h4>Title description , Dec 7, 2017</h4>
+          <img src="./img/pexels-pixabay-327466.jpg" alt="" />
+          <p>some text..</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            placeat fugit architecto doloremque voluptatibus esse quam
+            exercitationem, enim dolorem cum distinctio explicabo amet ab sunt
+            saepe maiores, nostrum molestias non!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">footer</div>
+  </body>
+</html>

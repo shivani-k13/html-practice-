@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    
+}
+.flex1{
+    width: 650px;
+    
+}
+.flex2{
+    width: 320px;
+    margin-left: 30px;
+}
+.image1{
+    width: 650px;
+}
+.box{
+    box-shadow: 4px 4px 9px;
+}
+.image3{
+    width: 90px;
+    height: 90px;
+}
+.image2{
+    width: 320px;
+}
+.tags span{
+    background-color: rgb(216, 212, 212);
+    padding: 6px;
+}
+.tags span:hover{
+    background-color: black;
+    color:  rgb(216, 212, 212);
+}

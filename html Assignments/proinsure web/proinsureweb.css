@@ -1,9 +1,13 @@
+body{
+    margin: 0px;
+}
 header{
     background-color: white;
     display: flex;
     padding: 20px;
     position: fixed;
     margin-top: 0%;
+    width: 100%;
 }
 #proinsure{
     color: #2d2640;
